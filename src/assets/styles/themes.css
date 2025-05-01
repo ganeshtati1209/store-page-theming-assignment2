@@ -1,0 +1,23 @@
+:root {
+  --primary: #1e40af;
+  --bg: #ffffff;
+  --text: #000000;
+  --primary-deep: #1e3a8a;
+  --primary-mild: #93c5fd;
+}
+
+.theme-theme1 {
+  --primary: #0f766e;
+  --bg: #e0f2f1;
+  --text: #004d40;
+  --primary-deep: #115e59;
+  --primary-mild: #99f6e4;
+}
+
+.theme-theme2 {
+  --primary: #a21caf;
+  --bg: #fce7f3;
+  --text: #6b21a8;
+  --primary-deep: #86198f;
+  --primary-mild: #f0abfc;
+}

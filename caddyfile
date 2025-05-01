@@ -1,0 +1,16 @@
+{
+  acme_ca https://acme-v02.api.letsencrypt.org/directory
+}
+
+# For subdomains like demo.localhost, theme1.localhost etc.
+*.localhost {
+  header {
+    +X-Subdomain {labels.1}
+  }
+  reverse_proxy host.docker.internal:5173
+}
+
+# For base URL like just localhost
+localhost {
+  reverse_proxy host.docker.internal:5173
+}
